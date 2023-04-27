@@ -1,0 +1,13 @@
+arpa - estrutura de rede para comunicação militar
+
+verbos HTTP: GET, POST, PUT, PATH, DELETE, OPTIONS
+
+codigos HTTP: 
+-200 ok
+-201 created
+-204 no content
+-400 bad request
+-404 not found
+-409 conflict
+-500 internal server error
+

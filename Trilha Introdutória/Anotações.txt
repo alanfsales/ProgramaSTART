@@ -1,0 +1,13 @@
+iii
+20B
+
+POO
+paradigma de programção onde a gente tenta tranferir para o 
+computador coisas do mundo real(simular, moudar)
+
+Abstracao = enchergar entidade e real e modelar no algoritimo
+Emcapsulamento = cada entidade cuida da sua informação
+
+Classe = representação da entidade do mundo real
+ela tem atributos e métodos
+
