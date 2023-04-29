@@ -11,3 +11,4 @@ codigos HTTP:
 -409 conflict
 -500 internal server error
 
+4G
