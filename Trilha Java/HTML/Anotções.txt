@@ -11,4 +11,28 @@ codigos HTTP:
 -409 conflict
 -500 internal server error
 
-4G
+Tags HTML Semântico
+
+<main> especifica o conteúdo principal, o de maior relevância dentro da página.
+<header> é utilizado para representar o cabeçalho de um documento ou seção.
+<footer> representa um rodapé de um documento.
+<section> representa uma seção dentro de um documento.
+<article> quando precisamos declarar um conteúdo que não precisa de outro para fazer sentido.
+<nav> é utilizado quando precisamos representar um agrupamento de links de navegação.
+<aside> é utilizado quando precisamos criar um conteúdo de apoio/adicional ao conteúdo principal.
+
+Tags Genéricas
+
+<div>  serve ao código a nível de bloco.
+<span> serve ao código a nível de linha.
+
+links
+<a href="">
+sem nada - relativo local atual. ex: paginas/contato.html
+../  - um nivel acima
+/    - raiz atual
+caminho completo - protocolo + url
+//url
+
+
+6B
