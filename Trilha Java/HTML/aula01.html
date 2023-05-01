@@ -16,30 +16,31 @@
             <h2>
                 Navegação Principal
             </h2>
-            <span>
-                <a href="aula01.html">Início</a>
-            </span>
-             -
-            <span>
-                <a href="sobre.html">Sobre mim</a>
-            </span>
-             -
-             <span>
-                <a href="contato.html">Contato</a>
-            </span>
+            <ol>
+                <li>
+                    <a href="aula01.html" target="_self">Início</a>
+                </li>
+                <li>
+                    <a href="sobre.html" target="_blank">Sobre mim</a>
+                </li>
+                 <li>
+                    <a href="contato.html" target="_self">Contato</a>
+                    <ul>
+                        <li><a href="http://facebook.com">Facebook</a></li>
+                        <li><a href="http://linkedin.com">Linkedin</a></li>
+                        <li>
+                            <a href="">Telefone</a>
+                            <ol>
+                                <li>Fixo</li>
+                                <li>Celular</li>
+                                <li>Comercial</li>
+                            </ol>
+                        </li>
+                    </ul>
+                 </li>
+            </ol>
         </nav>
     </header>
-    <section>
-        <h3>Dados Pessoais</h3>
-        <article>
-            <h4>Documentos</h4>
-            ...
-        </article>
-        <article>
-            <h5>Dados de contato</h5>
-            ... 
-        </article>
-    </section>
     <main>
         <header>
             <h2>Cursos realizados</h2>
@@ -65,27 +66,88 @@
         <footer>
             Atualizado em 2023
         </footer>  
-    </main>  
-    <aside>
-        <h5>Experiência profissional</h5>   
+    </main> 
+    <section>
+        <h3>Dados Pessoais</h3>
         <article>
-            <h6>Vendedor - IAP</h6>
-            <header>
-                Inicio Agos/2005
-            </header> 
-            <section>
-                <h6>Responsabilidades</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia sapien at porttitor sodales. Phasellus efficitur cursus est vulputate interdum. Vivamus ut lacinia felis. Proin laoreet gravida ultrices. Praesent magna ipsum, porta a posuere ac, faucibus sed leo. Nullam at lacus vel lectus tempus volutpat. Nunc ex justo, rhoncus non tortor vitae, fermentum pellentesque dui. Vestibulum hendrerit magna augue, quis sagittis orci tincidunt ultrices. Duis a turpis ornare, efficitur eros quis, imperdiet sapien. Pellentesque non porttitor neque, sit amet lobortis lorem. Suspendisse vitae posuere ante, vel volutpat nibh. Vivamus tempor felis ac dui efficitur, at viverra tellus suscipit. Nunc tincidunt vulputate eros. Curabitur accumsan lacus quis libero vulputate pretium.</p>
-            </section>  
-            <footer>
-                Trabalho atual     
-            </footer> 
-        </article> 
+            <h4>Documentos</h4>
+            <ul>
+                <li>Identidade xxxx</li>
+                <li>cpf xxxx</li>
+                <li>cnh xxxx</li>
+            </ul>
+        </article>
+        <article>
+            <h5>Dados de contato</h5>
+            <a href="mailto:alanfsales27@gmail.com">alanfsales27@gmail.com</a><br />
+            <a href="tel:+5585988235391">(85)988235391</a>
+        </article>
+    </section> 
+    <aside>
+        <h5>Experiência profissional</h5>  
+        <ol>
+            <li>
+                <article>
+                    <h6>Vendedor - IAP</h6>
+                    <header>
+                        Inicio Agos/2005
+                    </header> 
+                    <section>
+                        <h6>Responsabilidades</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia sapien at porttitor sodales. Phasellus efficitur cursus est vulputate interdum. Vivamus ut lacinia felis. Proin laoreet gravida ultrices. Praesent magna ipsum, porta a posuere ac, faucibus sed leo. Nullam at lacus vel lectus tempus volutpat. Nunc ex justo, rhoncus non tortor vitae, fermentum pellentesque dui. Vestibulum hendrerit magna augue, quis sagittis orci tincidunt ultrices. Duis a turpis ornare, efficitur eros quis, imperdiet sapien. Pellentesque non porttitor neque, sit amet lobortis lorem. Suspendisse vitae posuere ante, vel volutpat nibh. Vivamus tempor felis ac dui efficitur, at viverra tellus suscipit. Nunc tincidunt vulputate eros. Curabitur accumsan lacus quis libero vulputate pretium.</p>
+                    </section>  
+                    <footer>
+                        Trabalho atual     
+                    </footer> 
+                </article> 
+            </li>
+        </ol>
         <nav>
             <h6>Navegação secundária</h6>
-            Links complementares<br />
-            Empresa IAP
+            <ul>
+                <li>Links complementares</li>
+                <li>Empresa IAP</li>
+            </ul>
         </nav>
+    </aside>
+    <aside>
+        <table border="1">
+            <caption><h4>Horários de estudo</h4></caption>
+            <thead>
+                <tr>
+                    <th>Dias da Semana</th>
+                    <th>Seg</th>
+                    <th>Ter</th>
+                    <th>Qua</th>
+                    <th>Qui</th>
+                    <th>Sex</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Manhã</td>
+                    <td rowspan="2">HTML</td>
+                    <td rowspan="2">CSS</td>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    <td rowspan="2">JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Tarde</td>
+                    <td colspan="2">JavaScript</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Foco HTML</th>
+                    <th>Foco CSS</th>
+                    <th>HTML e JS</th>
+                    <th>CSS e JS</th>
+                    <th>Foco JS</th>
+                </tr>   
+            </tfoot>
+        </table>
     </aside>
     <footer>
         <nav>

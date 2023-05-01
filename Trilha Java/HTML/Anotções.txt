@@ -35,4 +35,4 @@ caminho completo - protocolo + url
 //url
 
 
-6B
+8E
