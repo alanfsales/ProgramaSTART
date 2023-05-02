@@ -5,6 +5,32 @@
     <title>Contato</title>
 </head>
 <body>
-    <h1>Contato</h1>
+    <form>
+        <!-- <input type="password" name="senha" placeholder="Senha" /> -->
+        <!-- <input type="hidden" name="hidden" value="Nome"  /> -->
+        <!-- <input type="search" name="pesquisa" placeholder="Pesquisa" /> -->
+        <input type="text" name="nome" placeholder="Nome" /><br />
+        <input type="email" name="email" placeholder="E-mail" /><br />
+        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx" /><br />
+        <input type="number" name="idade" placeholder="Idade" /><br />
+        <input type="url" name="linkedin" placeholder="Linkedin URL" /><br />
+        Urgência <input type="range" name="urgencia" min=0  max=100  step="0.1" /><br />
+        <input type="checkbox" name="dia-da-semana" value="2" /> Segunda<br />
+        <input type="checkbox" name="dia-da-semana" value="4" /> Quarta<br />
+        <input type="checkbox" name="dia-da-semana" value="6" /> Sexta<br />
+        <input type="radio" name="horario" value="manha" /> Manhã
+        <input type="radio" name="horario" value="tarde" /> Tarde
+        <input type="radio" name="horario" value="moite" /> Noite<br />
+        <textarea name="mensagem" cols=50 rows=10></textarea><br />
+        Cidade: <input list="cidade" name="cidade" />
+        <datalist id="cidade">
+            <option value="Caucaia">Caucaia</option>
+            <option value="Fortaleza">Fortaleza</option>
+            <option value="Sobral">Sobral</option>
+        </datalist><br />
+        <button type="button">Outra ação</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Emviar</button>
+    </form>
 </body>
 </html>
