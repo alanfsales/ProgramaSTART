@@ -1,0 +1,34 @@
+CSS - Cascading Style Sheets ou Folhas de Estilo em Cascata
+
+CSS Sintaxe
+-Instrução (Seletor+Bloco)
+-Seletores
+-Bloco
+
+Seletor{
+    propriedade: valor;
+}
+
+Modos de usar
+1 - tag <style> mais indicado usar dentro do <head>
+2 - inline. ex: <h1 style="color: red; text-decoration: underline;">
+                    Aula de CSS<
+                /h1>
+3 - arquico .css <link rel="stylesheet" href="style.css" />
+
+seletor por tag:
+h2{
+    color: green;
+} 
+
+seletor por classe:
+.titulo-aula{
+    text-decoration: underline;    
+}
+
+seletor por id:
+#titulo-primeira-aula{
+    text-decoration: none;
+}
+
+2H
