@@ -1,29 +1,10 @@
-h2{
-    color: green;
-    text-decoration: underline;
-} 
-
-p{
-    color: yellowgreen ;
+html{
+    /* color: rgba(200, 200, 200, 1); */
+    color: #ff0000;
+    background-color: #000;
+    background-image: url("cachorro-livro.png");
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-position: center;
+    background-size: contain;
 }
-
-.titulo-aula{
-    text-decoration: underline;    
-}
-
-.texto-azul{
-    color: blue;
-}
-
-.texto-vermelho{
-    color: red;
-}
-
-#titulo-primeira-aula{
-    text-decoration: none;
-}
-
-#titulo-segunda-aula{
-    color: brown;
-}
-
