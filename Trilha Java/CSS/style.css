@@ -1,10 +1,41 @@
-html{
-    /* color: rgba(200, 200, 200, 1); */
+/* html{
+    color: rgba(200, 200, 200, 1);
     color: #ff0000;
     background-color: #000;
     background-image: url("cachorro-livro.png");
     background-repeat: no-repeat;
-    /* height: 100vh; */
+    height: 100vh;
     background-position: center;
     background-size: contain;
+} */
+
+/* @font-face {
+    font-family: alexbrush;
+    src: url('AlexBrush-Regular.ttf');
 }
+
+main{
+    font-family: 'alexbrush', cursive;   
+    font-style: italic;
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-size: 1.2rem;
+} */
+
+h1, h2{
+    text-align: center;
+}
+p{
+    text-transform: uppercase;
+}
+h2#titulo-primeira-aula{
+    text-decoration: underline;
+    letter-spacing: 0.5rem;
+}
+
+main p{
+    font-family: sans-serif;
+    text-indent: 2rem;
+    text-align: justify;
+}
+
