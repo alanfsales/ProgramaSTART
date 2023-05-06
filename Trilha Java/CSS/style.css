@@ -39,3 +39,26 @@ main p{
     text-align: justify;
 }
 
+a:active{
+    color: green;
+    cursor: help;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+}
+h2:hover{
+    display: none;
+    cursor: pointer;
+}
+
+

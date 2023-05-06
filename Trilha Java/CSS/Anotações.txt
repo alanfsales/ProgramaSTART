@@ -31,4 +31,12 @@ seletor por id:
     text-decoration: none;
 }
 
-6E
+pseudo seletor/pseudo-classe
+ex: h2:hover{} - h2:focus{}
+
+Modelo de caixa:
+border-box - conta o tamalho de uma borda a outra
+content-box - conta só o conteúdo
+
+
+8C
