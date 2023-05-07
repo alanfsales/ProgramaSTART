@@ -39,4 +39,4 @@ border-box - conta o tamalho de uma borda a outra
 content-box - conta só o conteúdo
 
 
-8C
+8G

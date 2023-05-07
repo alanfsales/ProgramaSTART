@@ -1,17 +1,36 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
 .box{
     box-sizing: border-box;
     width: 5rem;
     height: 5rem;
     color: white;
     font-size: 3rem;
-    padding: 5px 2px 3px 10px;
+    /* border-radius: 20px; */
+    padding: 5px;
+    border: 3px solid yellow;
+    margin: 10px 0 5px 10px;
 }
 .vermelho{
     background-color: red;
+    /* border-width: 0.1rem; */
+    /* border-bottom-width: 0; */
+    /* border-style: dashed; */
+    margin-top: 0;
 }
 .azul{
     background-color: blue;
+    /* border-width: 10px 0 5px 3px; */
+    /* border-bottom-style: double; */
+    /* border-radius: 0 0 50px 10px; */
+    margin-bottom: 50px;
 }
 .verde{
     background-color: green;
+    /* border-style: solid; */
+    /* border-top-left-radius: 50px; */
+    margin-left: 0;
 }
