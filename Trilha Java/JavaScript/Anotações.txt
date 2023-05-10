@@ -1,0 +1,19 @@
+JavaScript: 
+ - Essencial para criar paginas dinâmicas.
+ - Complemento do HTML e CSS
+ex: Validações de formulário, carregamento dinâmico do conteúdo na página
+
+Tipos de Eventos:
+-Clique: onclick();
+-Alteração: onchange();
+-Carregamento: onload();
+-Teclado:
+    -onkeyUp: Exibe o caractere e depois execulta a ação.
+    -onkeyDown: Execulta a ação e depois exibe o caractere.
+    -onKeyPress:Execulta a ação e depois exibe o caractere.
+      *Não tem suporte as seguintes teclas: F1..F12, ALT, CTRL, SHIFT... 
+
+Tipos de Seletores HTML:
+-Por tag: getElementsByTagName("h1")[0]; 
+-Por Classe: getElementsByClassName("texto")[0];
+-Por ID: getElementById("campo");

@@ -1,6 +1,0 @@
-JavaScript: 
- - Essencial para criar paginas dinâmicas.
- - Complemento do HTML e CSS
-ex: Validações de formulário, carregamento dinâmico do conteúdo na página
-
-3C
