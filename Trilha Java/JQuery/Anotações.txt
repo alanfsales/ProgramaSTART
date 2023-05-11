@@ -1,1 +1,6 @@
-5A
+Tipo seletores em Jquery
+-Por Tag: $("input").val();
+-Por ID: $("#titulo").html();
+-Por Classe: $(".subtitulo").html();
+
+5G

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos</title>
+
+    <!-- JQuery -->
+    <script src="jquery-3.6.4.min.js"></script>
+
+    <!-- Script -->
+    <script>
+        //Ao carregar o documento
+        $(document).ready(function(){
+            //Evento click
+            $("button").click(function(){
+                //Add texto no H1
+                $("h1").html("Você clicou no botão.");     
+            });
+
+            //Evento Alteração
+            $("select").change(function(){
+                var curso = $("#cursos").val();
+                $("h1").html("Você escolheu: " + curso);         
+            });
+
+            //Evento Teclado
+            $("input").keyup(function(){
+                var texto = $(".texto").val();
+                $("h1").html("Você digitou:" + texto);         
+            });
+
+        });
+    </script>
+     <style>
+        body{text-align: center;}
+        select{margin: 10px;}
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <button>Clique aqui</button><br />
+
+    Escolha:
+    <select id="cursos">
+        <option value="">Escolha seu curso</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JS</option>
+    </select><br />
+    Digite: <input type="text" class="texto" />
+</body>
+</html>
