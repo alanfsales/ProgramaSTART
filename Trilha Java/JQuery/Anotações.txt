@@ -1,6 +1,20 @@
+O jQuery é a biblioteca do JavaScript que torna essa linguagem de programação mais concisa e simples de escrever e compreender.
+
 Tipo seletores em Jquery
 -Por Tag: $("input").val();
 -Por ID: $("#titulo").html();
 -Por Classe: $(".subtitulo").html();
 
-5G
+Eventos: são métodos que recebem uma função como parâmetro.
+$("button").click(function(){
+    $("h1").html("Você clicou no botão.");     
+ });
+
+ Alterar CSS
+ $("h1").css({
+    "color":"red",
+    "borderStyle":"solid",
+    "borderColor":"green"
+});
+
+

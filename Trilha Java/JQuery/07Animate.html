@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Animate</title>
+    <!-- CSS -->
+    <style>
+        body{text-align: center; }
+        div{
+            width: 100px;
+            height: 80px;
+            background-color: green;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    </style>
+
+    <!-- JQuery -->
+    <script src="jquery-3.6.4.min.js"></script>
+
+    <!-- Script -->
+    <script>
+        //Ao carregar o documento
+        $(document).ready(function(){
+            //Efeito
+            $("button").click(function(){
+                $("div").animate({
+                    width: "400px",
+                    height: "200px"
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>Clique aqui</button>
+
+    <div></div>
+</body>
+</html>
