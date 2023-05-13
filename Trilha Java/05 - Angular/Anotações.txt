@@ -1,0 +1,20 @@
+Angular é uma plataforma de desenvolvimento voltado para o front-end em aplicações web.
+
+Instalar:
+-Editor de código(IDE), VSCode por exemplo.
+-Node.js.
+-Testar no prompt(cmd) com o comando: node -v. 
+-E também testa o comando: npm -v. Que vem junto do node.js.
+-No cmd digita o comando: npm i -g @angular/cli, para instalar o angular.
+-Extenção do VSCode: Angular Language Service.
+
+Criar projeto:
+No terminal dentro do VSCode digite o comando: ng new nome-do-projeto.
+vai apareceu a seguites perguntas
+    ? Would you like to add Angular routing?
+    reposta Y para sem
+    ? Which stylesheet format would you like to use? 
+    escolha CSS
+
+
+4A
