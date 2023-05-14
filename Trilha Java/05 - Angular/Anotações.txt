@@ -12,9 +12,14 @@ Criar projeto:
 No terminal dentro do VSCode digite o comando: ng new nome-do-projeto.
 vai apareceu a seguites perguntas
     ? Would you like to add Angular routing?
-    reposta Y para sem
+    reposta Y para sim
     ? Which stylesheet format would you like to use? 
     escolha CSS
 
+Inicia o projeto: comando: npm start
+Cria Componete: comando: ng generate componet nome-componente
 
-4A
+PIPE é utilizado para formatar como os dados aparecem na tela
+
+
+4D
