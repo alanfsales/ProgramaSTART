@@ -22,4 +22,4 @@ Cria Componete: comando: ng generate componet nome-componente
 PIPE é utilizado para formatar como os dados aparecem na tela
 
 
-4D
+4H
