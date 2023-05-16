@@ -18,8 +18,8 @@ vai apareceu a seguites perguntas
 
 Inicia o projeto: comando: npm start
 Cria Componete: comando: ng generate componet nome-componente
+Cria um serviço: comando: ng generate service nome-servico
 
 PIPE é utilizado para formatar como os dados aparecem na tela
 
-
-4H
+4I
