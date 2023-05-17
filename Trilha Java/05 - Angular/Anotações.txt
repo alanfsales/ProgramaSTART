@@ -22,4 +22,4 @@ Cria um serviço: comando: ng generate service nome-servico
 
 PIPE é utilizado para formatar como os dados aparecem na tela
 
-4I
+4K
