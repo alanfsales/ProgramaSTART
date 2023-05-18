@@ -19,7 +19,9 @@ vai apareceu a seguites perguntas
 Inicia o projeto: comando: npm start
 Cria Componete: comando: ng generate componet nome-componente
 Cria um serviço: comando: ng generate service nome-servico
+Cria um roteamento: comando: npm i @angular/router
+Cria um modulo: ng g module nome-modulo --flat --module app
 
 PIPE é utilizado para formatar como os dados aparecem na tela
 
-4K
+5C
