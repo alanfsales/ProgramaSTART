@@ -23,5 +23,6 @@ Cria um roteamento: comando: npm i @angular/router
 Cria um modulo: ng g module nome-modulo --flat --module app
 
 PIPE é utilizado para formatar como os dados aparecem na tela
+Modulo contem varios componentes
 
-5C
+5F 7:35
