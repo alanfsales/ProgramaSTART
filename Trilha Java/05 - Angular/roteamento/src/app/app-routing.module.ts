@@ -18,7 +18,6 @@ const routes: Routes = [
   { path: "", redirectTo: "primeira-pagina", pathMatch: "full"},
   { path: "**", component: PaginaNaoEncontradaComponent}
   
-
 ]
 
 @NgModule({
