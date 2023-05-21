@@ -25,4 +25,4 @@ Cria um modulo: ng g module nome-modulo --flat --module app
 PIPE é utilizado para formatar como os dados aparecem na tela
 Modulo contem varios componentes
 
-6A
+6C
