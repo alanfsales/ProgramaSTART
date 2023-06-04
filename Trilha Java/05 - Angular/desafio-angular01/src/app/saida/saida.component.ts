@@ -19,11 +19,13 @@ export class SaidaComponent implements OnInit{
   apagarMedia(nomeRemover: string){
     this.medias = this.medias.filter(media => media.nome !== nomeRemover);
     this.listaMedias.apagaMedia(nomeRemover);
+    this.medias = this.listaMedias.mostraMedias();   
   }
 
   apagaTudo(){
     this.medias = [];
     this.listaMedias.limpaLista();
+    this.medias = this.listaMedias.mostraMedias();   
   }
   
 }

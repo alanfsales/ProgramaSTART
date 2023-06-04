@@ -1,13 +1,13 @@
 <div *ngIf="medias.length > 0; else semMedia">
     <button type="button" (click)="apagaTudo()">Limpar a Lista</button>
     <ul>
-        <li>
+        <li class="titulo">
            <p>Nome</p>
            <p>N1</p>
            <p>N2</p>
            <p>Média</p>
            <p>Status</p>
-           <p>Opções</p>
+           <p>Apagar</p>
         </li>
         <li *ngFor="let media of medias">
             <p>{{media.nome}}</p>
@@ -19,4 +19,6 @@
         </li>
     </ul>
 </div>
-<ng-template #semMedia>Nenhuma média foi adicionada a lista</ng-template>
+<div>
+    <ng-template #semMedia>Nenhuma média foi adicionada a lista</ng-template>
+</div>

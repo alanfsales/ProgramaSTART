@@ -1,10 +1,39 @@
 li{
+    margin: 5px;
     display: flex;
-    margin: 15px;
-    align-items: center;
     justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 5px;
+    border-radius: 8px;
+    height: 30px;   
 }
 
-button{
-    margin-left: 30px;
+p{
+    margin: auto;
+}
+
+ul{
+    padding: 0;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div{
+    width: 900px;
+    margin: 0 auto;
+}
+button {
+	background: #0066A2;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+    height: 25px;
+}
+
+ng-template{
+    margin: 0 auto;
 }

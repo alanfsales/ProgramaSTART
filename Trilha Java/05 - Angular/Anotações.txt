@@ -34,6 +34,6 @@ Do componente para o templete e do template para o componete [(ngModel)]="".
 
 
 9A
-4I
+5C
 
 
