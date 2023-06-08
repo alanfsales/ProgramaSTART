@@ -28,4 +28,8 @@ export class ListaMediasService {
     localStorage.clear();
   }
 
+  alterarMedia(media: Media){
+
+  }
+
 }

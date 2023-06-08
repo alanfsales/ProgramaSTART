@@ -3,19 +3,17 @@
     <ul>
         <li class="titulo">
            <p>Nome</p>
-           <p>N1</p>
-           <p>N2</p>
            <p>Média</p>
            <p>Status</p>
-           <p>Apagar</p>
+           <p>Alterar</p>
+           <p>Excluir</p>
         </li>
         <li *ngFor="let media of medias">
             <p>{{media.nome}}</p>
-            <p>{{media.n1}}</p>
-            <p>{{media.n2}}</p>
             <p>{{(media.n1+media.n2)/2}}</p>
-            <p>{{(media.n1+media.n2)/2 > 7 ? "Aprovado":"Reprovado"}}</p>
-            <p><button (click)="apagarMedia(media.nome)">X</button></p>
+            <p>{{(media.n1+media.n2)/2 >= 7 ? "Aprovado":"Reprovado"}}</p>
+            <p><button (click)="alterarMedia(media)"><i class="fa-solid fa-pen"></i></button></p>
+            <p><button (click)="apagarMedia(media.nome)"><i class="fa-solid fa-trash"></i></button></p>
         </li>
     </ul>
 </div>

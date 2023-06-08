@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [
-  { }
-];
+//add comentario porque tava dando erro no console so navegador. pois não está sendo usado.
+// const routes: Routes = [
+//  { }
+//];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+ // imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -22,7 +22,7 @@ Cria um serviço: comando: ng generate service nome-servico
 Cria um roteamento: comando: npm i @angular/router
 Cria um modulo: ng g module nome-modulo --flat --module app
 
-PIPE é utilizado para formatar como os dados aparecem na tela.
+PIPE é utilizado para formatar como os dados aparecem na tela. {{ | }}
 Modulo contem varios componentes.
 
 -O property binding é uma forma de associar propriedades entre o template (arquivo html) e o component (arquivo typescript). 
@@ -34,6 +34,6 @@ Do componente para o templete e do template para o componete [(ngModel)]="".
 
 
 9A
-5C
+
 
 
