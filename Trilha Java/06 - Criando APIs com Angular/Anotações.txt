@@ -1,0 +1,6 @@
+API 
+-Sistema desenvolvido em qualquer linguagem web para que aplicações de terceiros consigam ter acesso.
+-Estrututa onde seja possível realizar integração com o banco de dados.
+-projeto web onde é possivel realizar requisições via browser ou app.
+
+2G
