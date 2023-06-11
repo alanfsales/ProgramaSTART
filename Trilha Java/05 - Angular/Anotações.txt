@@ -2,7 +2,7 @@ Angular é uma plataforma de desenvolvimento voltado para o front-end em aplica�
 
 Instalar:
 -Editor de código(IDE), VSCode por exemplo.
--Node.js.
+-Instalar Node.js.
 -Testar no prompt(cmd) com o comando: node -v. 
 -E também testa o comando: npm -v. Que vem junto do node.js.
 -No cmd digita o comando: npm i -g @angular/cli, para instalar o angular.
