@@ -33,7 +33,7 @@ export class CursoService {
   cadastrarCurso(c: Curso): Observable<Curso[]>{
     return this.http.post(this.url+'cadastrar', {cursos: c})
       .pipe(map((res: any) => {
-        this.vetor.push(res['cursos']);
+        this.vetor.push(res['curso']);
         return this.vetor;
       }))
   }
@@ -50,4 +50,27 @@ export class CursoService {
       return this.vetor = filtro;
     }))
   }
+
+  //Atualizar curso
+  atuaizarCurso(c: Curso): Observable<Curso[]>{
+    //Execulta a alteração via URL
+    return this.http.put(this.url+'alterar', {cursos : c})
+
+    //Percurre o vetor para saber qual o id do curso alterado
+    .pipe(map((res) => {
+      const cursoAlterado = this.vetor.find((item) => {
+        return +item['idCurso']! === +['idCurso'];
+      });
+
+      //Altera o valor do vetor local
+      if(cursoAlterado){
+        cursoAlterado['nomeCurso'] = c['nomeCurso'];
+        cursoAlterado['valorCurso'] = c['valorCurso'];
+      }
+
+      //Retorno
+      return this.vetor;
+    }))
+  }
+
 }

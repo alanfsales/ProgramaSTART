@@ -1,0 +1,24 @@
+form{
+    text-align: center;
+    margin: auto;
+}
+
+input{
+    margin-top: 10px;
+}
+
+form button{
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+table{
+    border-style: double;
+    align-items: center;
+    margin: auto;
+}
+
+td{
+    border-style: outset ;
+}
