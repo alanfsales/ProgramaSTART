@@ -1,0 +1,29 @@
+A java foi criado com o seguinte objetivo: 
+Escreva uma vez e execulte em qualquer lugar.
+(WORA. White Once, Run Anywhere)
+
+Características:
+-Simples
+-Orientado a objetos
+-Distribuível
+-Multithread
+-Dinâmico
+-Arquitetura neutra
+-Portátil
+-Alto desempenho
+-Robusto
+-Seguro
+
+JVM - Máquina Virtual Java
+
+JRE - É o pacote java que possibilita "rodar" programas em java
+JDK - É o pacaote java necessário para "desenvolver" programas em java
+
+Literais: representam os dados dos tipos primitivos, dos tipos String e dos tipos nulo.
+ex: 	‘a‘      // literal char
+	12       // literal int
+	true     // literal boolean
+	23.4     // litreal double
+
+
+9C
