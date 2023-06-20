@@ -25,5 +25,11 @@ ex: 	‘a‘      // literal char
 	true     // literal boolean
 	23.4     // litreal double
 
+-Orientação a Objetos(POO): é um paradigma/modelo de programação baseado em classes e objetos.
+-Classe: É um elemento da POO que consegue expressar o que temos no mundo real. 
+	Ela é formada por variáveis(atributos), contrutor e métodos(Comportamento).
+-Método: Determina o comportamento dos objetos.
+-Atributo: São elementos que definem a estrutura da classe(variáveis)
+ 
 
-10B
+13D
