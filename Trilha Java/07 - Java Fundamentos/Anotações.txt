@@ -30,6 +30,11 @@ ex: 	‘a‘      // literal char
 	Ela é formada por variáveis(atributos), contrutor e métodos(Comportamento).
 -Método: Determina o comportamento dos objetos.
 -Atributo: São elementos que definem a estrutura da classe(variáveis)
+-Instanciamento: é criar um objeto(Instanciar uma classe).
+
+4 Pilateres da POO
+-Encpsulamento: tem como objetivo evitar que os dados sofram acesso indevido. Isso é feito através de métodos.
+-Herança: Uma classe herda caracteristicas de outra classe.
  
 
-13D
+13J
