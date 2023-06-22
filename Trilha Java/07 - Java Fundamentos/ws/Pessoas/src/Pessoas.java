@@ -7,7 +7,7 @@ public class Pessoas {
 		fis.cpf = "1111111";
 		fis.identidade = "222222222";
 		fis.situacaoPessoa = "A";
-		System.out.println("Dados da Pessoa Fisica");
+		System.out.println("Dados da Pessoa Física");
 		System.out.println(fis);
 		
 		Juridica jur = new Juridica();

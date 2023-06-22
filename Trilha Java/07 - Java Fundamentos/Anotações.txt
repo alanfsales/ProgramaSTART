@@ -35,6 +35,6 @@ ex: 	‘a‘      // literal char
 4 Pilateres da POO
 -Encpsulamento: tem como objetivo evitar que os dados sofram acesso indevido. Isso é feito através de métodos.
 -Herança: Uma classe herda caracteristicas de outra classe.
+-Polimorfismo: (muitas formas). Um objeto pode se comportar de maneira diferente.
+-Abstração: esconder os detalhes, quando usamos um método não precisa saber exatamente o que ele está fazendo.
  
-
-13J
