@@ -1,0 +1,7 @@
+Interface: É uma maneira de declarar o comportamento de uma classe sem implemntar como fazer. 
+	   Elá "obriga" a classe a ter atributos e implementar métodos.
+
+Construtor: É um método que tem o mesmo nome da classe e sem o tipo de retorno. 
+	    Ele é chamado sempre que um objeto é criado.
+
+4A
