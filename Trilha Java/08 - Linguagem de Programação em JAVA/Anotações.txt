@@ -4,4 +4,14 @@ Interface: É uma maneira de declarar o comportamento de uma classe sem implemnt
 Construtor: É um método que tem o mesmo nome da classe e sem o tipo de retorno. 
 	    Ele é chamado sempre que um objeto é criado.
 
-4A
+Modificadores de acesso: São padrões de visibilidade e acesso as classes, atributos e métodos.
+ 	-public: permite que qualquer parte da aplicação tenha acesso.
+	-protected: permite acesso dentro do mesmo pacote, e por classe derivadas mesmo que em pacote diferentes.		 
+	-private: só permite acesso dentro da classe que ela foi criada.
+	-default: (não é explicito). permite acesso somente dentro do mesmo pacote.
+
+Arrays: são estrutudas de dados que trabalham com um único tipo de dado.
+	Existe 2 tipo: unidimensional(vetor) e bidimencional(matriz).
+
+
+6F
