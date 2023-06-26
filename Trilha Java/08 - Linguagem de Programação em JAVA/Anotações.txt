@@ -13,5 +13,7 @@ Modificadores de acesso: São padrões de visibilidade e acesso as classes, atri
 Arrays: são estrutudas de dados que trabalham com um único tipo de dado.
 	Existe 2 tipo: unidimensional(vetor) e bidimencional(matriz).
 
+Collections: é um conjunto de interfaces e classes para representar grupos de dados(lista) como uma única undidade.
 
-6F
+
+7E
