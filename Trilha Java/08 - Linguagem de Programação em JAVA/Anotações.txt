@@ -14,6 +14,12 @@ Arrays: são estrutudas de dados que trabalham com um único tipo de dado.
 	Existe 2 tipo: unidimensional(vetor) e bidimencional(matriz).
 
 Collections: é um conjunto de interfaces e classes para representar grupos de dados(lista) como uma única undidade.
+	     ex. ArrayList, LinkedList
 
+Wrapper: São classes especiais que possuem métodos capazes de converter variáveis primitivas.
+	 E também possibilita que tipos primitivos possa trabalhar como objetos.
 
-7E
+Generics: para usar utilizamos o diamante <> Com um tipo generico.
+	  objetivo de reaproveitar código.
+
+9B
