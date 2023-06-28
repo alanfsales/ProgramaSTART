@@ -22,4 +22,10 @@ Wrapper: São classes especiais que possuem métodos capazes de converter variá
 Generics: para usar utilizamos o diamante <> Com um tipo generico.
 	  objetivo de reaproveitar código.
 
-9B
+Annotation: um recurso que permite adicionar informaçao complementar no código.
+	    começa com @
+
+threads: conjunto de instruções que podem ser execultados dentro de processos.
+	 executar varias tarefas diferentes ao mesmo tempo								
+
+13D
