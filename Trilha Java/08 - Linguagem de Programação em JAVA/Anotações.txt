@@ -28,4 +28,4 @@ Annotation: um recurso que permite adicionar informaçao complementar no código
 threads: conjunto de instruções que podem ser execultados dentro de processos.
 	 executar varias tarefas diferentes ao mesmo tempo								
 
-13D
+14E
