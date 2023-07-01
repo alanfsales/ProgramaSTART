@@ -21,7 +21,6 @@ public class Dao {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url, user, password);
-			System.out.println("conexa aberta");
 		}catch (SQLException | ClassNotFoundException ex) {
 			System.out.println("Erro ao conectar com o BD");
 		}
@@ -29,6 +28,5 @@ public class Dao {
 	
 	public void close() throws SQLException {
 		con.close();
-		System.out.println("conexa fechada");
 	}
 }
