@@ -26,6 +26,7 @@ Annotation: um recurso que permite adicionar informaçao complementar no código
 	    começa com @
 
 threads: conjunto de instruções que podem ser execultados dentro de processos.
-	 executar varias tarefas diferentes ao mesmo tempo								
+	 executar varias tarefas diferentes ao mesmo tempo	
 
-14K
+Exceptions: quando algo imprevisto acontece. Pode ser erro de lógica ou acesso a recursos que não estão disponiveis.
+					

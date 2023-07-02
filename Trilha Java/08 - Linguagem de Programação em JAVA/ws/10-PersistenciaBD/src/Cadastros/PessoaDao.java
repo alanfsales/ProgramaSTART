@@ -17,15 +17,23 @@ public class PessoaDao extends Dao {
 		close();
 	}
 	
-	public void alterarPessoa(Pessoa p) throws SQLException {
+	public boolean alterarPessoa(Pessoa p) throws SQLException {
 		open();
 		stmt = con.prepareStatement("update pessoa set nomepessoa=?, email=? where idpessoa = ?");
-		stmt.setString(1, p.getNomePessoa());
-		stmt.setString(2, p.getEmail());
-		stmt.setInt(3, p.getIdPessoa());
-		stmt.execute();
+		try {
+			stmt.setString(1, p.getNomePessoa());
+			stmt.setString(2, p.getEmail());
+			stmt.setInt(3, p.getIdPessoa());
+			stmt.execute();
+		} catch (SQLException e) {
+			System.out.println("Erro: " + e.getMessage() + stmt);
+			stmt.close();
+			close();
+			return false;
+		}
 		stmt.close();
 		close();
+		return true;
 	}
 	
 	public void excluirPessoa(Pessoa p) throws SQLException {
@@ -59,7 +67,7 @@ public class PessoaDao extends Dao {
 		List<Pessoa> listaPessoas = new ArrayList<>();
 		try {
 			open();
-			stmt = con.prepareStatement("select * from pessoa");
+			stmt = con.prepareStatement("select * from pessoa order by idpessoa");
 			rs = stmt.executeQuery();
 			while (rs.next()) {
 				Pessoa p = new Pessoa();
@@ -68,8 +76,8 @@ public class PessoaDao extends Dao {
 				p.setEmail(rs.getString("email"));
 				listaPessoas.add(p);
 			}
-			clone();
-		} catch (Exception e) {
+			close();
+		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 		}
 		return listaPessoas;
