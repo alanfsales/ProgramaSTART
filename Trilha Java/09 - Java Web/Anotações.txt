@@ -1,0 +1,4 @@
+JSP - Java Server Pages
+É uma linguagem de script que permite gerar conteúdos web dinâmicos.
+
+2E
