@@ -1,0 +1,53 @@
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.10
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2023 18:11:59 UTC
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.10.0
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.12
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.12+8-LTS-237
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10
+03-Jul-2023 21:23:52.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\conf\logging.properties
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0A42NQU
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10
+03-Jul-2023 21:23:52.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\temp
+03-Jul-2023 21:23:52.606 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.4] using APR version [1.7.4].
+03-Jul-2023 21:23:52.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.9 30 May 2023]
+03-Jul-2023 21:23:52.965 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Jul-2023 21:23:53.590 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1546] milliseconds
+03-Jul-2023 21:23:53.746 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Jul-2023 21:23:53.746 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.10]
+03-Jul-2023 21:23:53.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\docs]
+03-Jul-2023 21:23:57.934 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [344] milliseconds.
+03-Jul-2023 21:23:57.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\docs] has finished in [4.203] ms
+03-Jul-2023 21:23:57.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\examples]
+03-Jul-2023 21:23:59.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\examples] has finished in [1.922] ms
+03-Jul-2023 21:23:59.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\host-manager]
+03-Jul-2023 21:24:00.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\host-manager] has finished in [234] ms
+03-Jul-2023 21:24:00.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\manager]
+03-Jul-2023 21:24:00.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\manager] has finished in [172] ms
+03-Jul-2023 21:24:00.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\ROOT]
+03-Jul-2023 21:24:00.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\webapps\ROOT] has finished in [78] ms
+03-Jul-2023 21:24:00.371 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Jul-2023 21:24:01.418 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7829] milliseconds
+03-Jul-2023 21:24:10.090 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\conf\Catalina\localhost\PessoaWeb.xml]
+03-Jul-2023 21:24:10.090 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PessoaWeb] in deployment descriptor [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\conf\Catalina\localhost\PessoaWeb.xml] has been ignored
+03-Jul-2023 21:24:10.512 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jul-2023 21:24:10.512 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Alan\Documents\Programa START\Trilha Java\09 - Java Web\apache-tomcat-10.1.10\conf\Catalina\localhost\PessoaWeb.xml] has finished in [422] ms
+03-Jul-2023 21:24:10.512 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PessoaWeb]] after start() had already been called. The second call will be ignored.
+03-Jul-2023 21:41:16.501 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Jul-2023 21:41:16.501 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Jul-2023 21:41:16.789 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Jul-2023 21:41:16.856 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Jul-2023 21:41:16.877 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
