@@ -1,0 +1,14 @@
+Pre-Processadores CSS: 
+	Linguagem intermediária que adicionam  recursos para criar estilos com menos código.
+	Interpretador de código.
+	Gera CSS a partir de outra sintaxe.
+	Ex: LESS,Sass. Stylus.
+ - Vantagens: 
+	Criação de variaveis, Condicionais, Repetição, Imports, Extends, Funções e Mixins
+	Facilita a manutenção do código.
+	Permite código limpo.
+ - Desvantagens:
+	Aumento de complexibilidade.
+	Aumenta a chance de baixo desempelho.	
+
+3F

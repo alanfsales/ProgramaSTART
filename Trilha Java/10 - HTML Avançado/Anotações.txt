@@ -1,0 +1,29 @@
+OnPages SEO = são estratégias para otimização para sites de buscas nas páginas web.
+	-URL Amigável: com palavras-chave, sem caracteres especiais, separar por hífen.
+	-Meta title: no máximo 70 caracteres. tag <title> dentro do <head>
+	-Meta description: Resumo da página. Call to action(verbo no imperativo) max 160 caracteres
+		  	   <meta name="description" content="...">
+	-Site map: XML com todas as páginas do site. 
+	-Título da página: Não tem limite de caracteres. <h1>
+	-Conteúdo de texto: Ser original, ter qualidade, 
+	-Imagens: colocar texto no ALT e descrição. Salvar com nome otimizado.
+	-Campos únicos: Campos relacionados as SEO, como meta title. Não deve ser copiado de outra empresa
+	-Hiperlinks: links para outras paginas com explicações por exemplo, aumentando a interatividade
+	-Intertítulo: Facilita leitura e organiza o texto.<h2>
+	-Moblile friendliness
+	-Velocidade de carregamento
+	-Legibilidade(fácil leitura)
+	-Inexistência de erros
+	-Segurança
+
+Acessibilidade = facilidade de acesso.
+	- Acessível indepedente da capacidade auditiva, visual ou cognitiva.
+	- Seguro pra saude, sem cores que prejudique a visão e que pode causar dor de cabeça.
+
+Segurança:
+	-SSL/TLS: Protocolo da camada segura. (Permite ter mais segurança em acesso a páginas web)
+	-CORS: Compartilhamento de recursos de origem cruzada ou origem diferente
+	-CSP: Politica de Segurança de conteúdo
+	-OWASP Top 10: Projeto aberto se segurança em aplicações web. É um documento de conscientização
+
+PWA: Progressive Web App: é uma página com cara de app
