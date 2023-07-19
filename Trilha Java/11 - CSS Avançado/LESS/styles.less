@@ -1,0 +1,38 @@
+@cor: blue;
+@cor2: green;
+@cor3: rgb(245, 245, 226);
+@width: 0.75;
+@tamanho: 20px;
+
+
+body{
+    background-color: rgb(210, 212, 208);
+    text-align: center;
+}
+
+h1{
+    .cores('h1');
+}
+
+p{
+    // color: if(iscolor(@cor), @cor, red);
+    .cores('p');
+    width: percentage(@width);
+    b{
+        color: @cor3;
+        background-color: @cor2;
+    }
+ }
+
+ .cores(@tag){
+    margin: 10px auto;
+    color: @cor * 0.8;  
+    & when (@tag = 'h1'){
+        text-shadow: 2px 1px 1px #7a7b7c;
+        font-size: @tamanho * 2.5px;
+    }
+    & when (@tag = 'p'){
+        background-color: lightgreen;
+        font-size: @tamanho * 1.23px;
+    }
+ }
