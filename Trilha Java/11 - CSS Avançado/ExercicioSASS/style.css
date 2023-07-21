@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(210, 212, 208);
+  width: 75%;
+  margin-left: 10%;
+}
+
+h1 {
+  text-shadow: 2px 1px 1px #110707;
+  text-decoration: underline;
+  color: red;
+}
+
+h2 {
+  color: rgb(165, 33, 0);
+  text-shadow: 2px 1px 1px #ccc;
+  text-decoration: underline;
+  background-color: #FFF;
+}
+
+p {
+  color: blue;
+}
+p b {
+  color: #ff3333;
+}
+
+b {
+  color: red;
+}
+
+a.button:link, a.button:visited, a {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  width: 15%;
+}
+
+#div-1 {
+  font-size: 23px;
+  color: #00b300;
+}
+
+#div-2 {
+  font-size: 26px;
+  color: #00e600;
+}
+
+#div-3 {
+  font-size: 29px;
+  color: #1aff1a;
+}/*# sourceMappingURL=style.css.map */

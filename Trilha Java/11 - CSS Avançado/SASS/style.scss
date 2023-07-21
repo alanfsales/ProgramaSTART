@@ -1,6 +1,9 @@
-$cor: lightblue;
+@import 'base', 'formatacaotxt';
+
 $cor1: lightgrey;
 $background: black;
+$tamanho: 10px;
+$cordiv: red;
 
 @mixin fundoP($color){
     background-color: $color;
@@ -8,23 +11,29 @@ $background: black;
 
 body{
     @include fundoP($background);
-    color: $cor1;
-    margin: 10%;
-}
-
-.sombra{
-    text-shadow: 2px 1px 1px #ccc;
-    text-decoration: underline;
-    color: $cor;
-}
-h1{
-    color: $cor;
+    @if($background == black){
+        color: $cor1;
+        //font-size: #{$tamanho+px};
+    }@else{
+        color: darkblue;
+        background-color: lightskyblue;
+    }
+    margin: (5%*2);
 }
 
 p{
-   
+    @include fundoP($background);
     b{
         color: rgb(0, 255, 64);
     }
 }
+
+@for $i from 1 through 3 {
+    $nome: '#id-' + $i;
+    #{$nome}{
+        font-size: $tamanho + ($i*4);
+        background-color: lighten($cordiv, $i * 10%);
+    }
+}
+ 
 

@@ -1,0 +1,66 @@
+$cor: blue;
+$cor2: red;
+$cor3: green;
+$tamanho: 20px;
+$width: 0.75;
+
+@mixin drop-shadow(){
+    text-shadow: 2px 1px 1px #110707; 
+    text-decoration: underline;    
+}
+
+@mixin drop-shadow1($color: darkgreen, $backgroundColor: rgb(139,74,125)){
+    @if($color == ''){
+        color: rgb(165, 33, 0);
+    }@else{
+        color: $color;
+    }
+    text-shadow: 2px 1px 1px #ccc; 
+    text-decoration: underline;
+    background-color: $backgroundColor;
+}
+
+body{
+    background-color: rgb(210, 212, 208);
+    width: percentage($width);
+    margin-left: 10%;
+}
+
+h1{
+    @include drop-shadow();
+    color: $cor2;
+}
+
+h2{
+    @include drop-shadow1('', #FFF);
+}
+
+p{
+    color: $cor;
+    b{
+        color: lighten($cor2, 10%);
+    }
+}
+
+b{
+    color: $cor2;
+}
+
+a.button:link, a.button:visited, a{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    width: 15%;
+}
+
+
+@for $i from 1 through 3 {
+    $nome: '#div-' + $i;
+    #{$nome}{
+        font-size: $tamanho + ($i*3);
+        color: lighten($cor3, $i * 10%);
+    }
+}
