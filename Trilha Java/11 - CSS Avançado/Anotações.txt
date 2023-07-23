@@ -11,4 +11,9 @@ Pre-Processadores CSS:
 	Aumento de complexibilidade.
 	Aumenta a chance de baixo desempelho.	
 
-4J
+PostCSS: é uma ferramenta que usa plugins baseado em javascript para automatizar operações CSS
+
+Styled Components: é uma biblioteca qua ajudar a escrever código CSS dentro do javascript.
+
+
+6D
