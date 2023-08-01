@@ -15,5 +15,9 @@ PostCSS: é uma ferramenta que usa plugins baseado em javascript para automatiza
 
 Styled Components: é uma biblioteca qua ajudar a escrever código CSS dentro do javascript.
 
+CSS Modules:
 
-6D
+Web Components: é uma suíte de diferentes tecnologias que permite criar elementos customizados reutilizáveis.
+
+
+7C
